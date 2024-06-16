@@ -177,12 +177,17 @@ body.travel-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.wildlife-on .hero-section {
+body.cars-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
 body.nature-on .hero-section {
+	transform: rotateX(-10deg);
+	-webkit-transition-delay: 0ms;
+	transition-delay: 0ms;
+}
+body.people-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -394,8 +399,9 @@ body.contact-on .contact-section {
 }
 
 .travel-section,
-.wildlife-section,
-.nature-section {
+.cars-section,
+.nature-section,
+.people-section {
     position: fixed;
 	top: 100%;
 	left: 0;
@@ -411,8 +417,9 @@ body.contact-on .contact-section {
 	z-index: 10;
 }
 .travel-close,
-.wildlife-close,
-.nature-close {
+.cars-close,
+.nature-close,
+.people-close {
     position: absolute;
 	top: 20px;
 	right: 20px;
@@ -430,8 +437,9 @@ body.contact-on .contact-section {
 	z-index: 11;
 }
 .travel-close:hover,
-.wildlife-close:hover,
-.nature-close:hover {
+.cars-close:hover,
+.nature-close:hover
+.people-close:hover {
     transform: rotate(90deg);
 }
 body.travel-on .travel-section {
@@ -439,7 +447,7 @@ body.travel-on .travel-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-body.wildlife-on .wildlife-section {
+body.cars-on .cars-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -449,9 +457,15 @@ body.nature-on .nature-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
+body.people-on .people-section {
+	top: 0;
+	-webkit-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
 .travel-section img,
-.wildlife-section img,
-.nature-section img {
+.cars-section img,
+.nature-section img,
+.people-section img {
 	margin-top: 30px;
     width: 100%;
 	height: auto;
@@ -460,8 +474,9 @@ body.nature-on .nature-section {
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .travel-section h3,
-.wildlife-section h3,
-.nature-section h3 {
+.cars-section h3,
+.nature-section h3,
+.people-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
 	font-weight: 700;
@@ -469,15 +484,17 @@ body.nature-on .nature-section {
 	color: #fff;
 }
 .travel-section p,
-.wildlife-section p,
-.nature-section p {
+.cars-section p,
+.nature-section p,
+.people-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
 .travel-section p span,
-.wildlife-section p span,
-.nature-section p span {
+.cars-section p span,
+.nature-section p span,
+.people-section p span {
 	font-size: 20px;
 	line-height: 1.3;
 	font-weight: 700;
