@@ -12,7 +12,7 @@
 body{
 	font-family: 'Lateef', Lateef-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 1.6;
 	color: #fff;
 	background-color: #1f2029;
@@ -108,7 +108,7 @@ a:hover {
 }
 .hero-section h1{
     color: #fff;
-	font-size: 5vw;
+	font-size: 10vw;
 	line-height: 1;
 	font-weight: 900;
 }
@@ -116,17 +116,17 @@ a:hover {
     font-family: 'Lateef', cursive;
 	letter-spacing: 1px;
 	color: #866BAF;
-	font-size: 26px;
+	font-size: 31px;
 	line-height: 1;
 	font-weight: 700;
 }
 @media screen and (max-width: 580px){
 	.hero-section .dancing{
-		font-size: 18px;
+		font-size: 21px;
 	}
 }
 .hero-section p{
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 20px;
 	font-weight: 500;
 	color: #fff;
@@ -194,7 +194,7 @@ body.people-on .hero-section {
 }
 .about-text {
     position: absolute;
-	font-size: 17px;
+	font-size: 22px;
 	line-height: 20px;
 	font-weight: 700;
 	color: #fff;
@@ -289,13 +289,13 @@ body.about-on .about-section {
     font-family: 'Lateef', cursive;
 	letter-spacing: 1px;
 	color: #866BAF;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: 400;
 }
 
 .contact-text {
     position: absolute;
-	font-size: 17px;
+	font-size: 22px;
 	line-height: 20px;
 	font-weight: 700;
 	color: #fff;
@@ -372,7 +372,7 @@ body.contact-on .contact-section {
 }
 .contact-section a{
     margin: 0 auto;
-	font-size: 32px;
+	font-size: 37px;
 	font-weight: 900;
 	letter-spacing: 1px;
 	color: #fff;
@@ -381,19 +381,19 @@ body.contact-on .contact-section {
 .contact-section .social a{
     margin-left: 8px;
 	margin-right: 8px;
-	font-size: 15px;
+	font-size: 22px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	color: #866BAF;
 }
 @media screen and (max-width: 580px){
 	.contact-section a{
-		font-size: 17px;
+		font-size: 22px;
 	}
 	.contact-section .social a{
 		margin-left: 3px;
 		margin-right: 3px;
-		font-size: 13px;
+		font-size: 18px;
 		letter-spacing: 0;
 	}
 }
@@ -477,7 +477,7 @@ body.people-on .people-section {
 .cars-section h3,
 .nature-section h3,
 .people-section h3 {
-	font-size: 44px;
+	font-size: 49px;
 	line-height: 1.3;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -487,7 +487,7 @@ body.people-on .people-section {
 .cars-section p,
 .nature-section p,
 .people-section p {
-	font-size: 14px;
+	font-size: 19px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
@@ -495,7 +495,7 @@ body.people-on .people-section {
 .cars-section p span,
 .nature-section p span,
 .people-section p span {
-	font-size: 20px;
+	font-size: 25px;
 	line-height: 1.3;
 	font-weight: 700;
 	color: #866BAF;
