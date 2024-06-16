@@ -61,13 +61,13 @@
 	});
 
 	
-	//Wildlife portfolio page
+	//cars portfolio page
 	
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
+	$(".cars").on('click', function () {
+		$("body").addClass("cars-on");
 	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".cars-close").on('click', function () {
+		$("body").removeClass("cars-on");
 	});
 
 	
@@ -80,5 +80,13 @@
 		$("body").removeClass("nature-on");
 	});
 
+	//People portfolio page
+	
+	$(".people").on('click', function () {
+		$("body").addClass("people-on");
+	});
+	$(".people-close").on('click', function () {
+		$("body").removeClass("people-on");
+	});
 	
 })(jQuery);
