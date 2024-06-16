@@ -278,9 +278,9 @@ body.about-on .about-section {
 	z-index: 1;
 }
 .about-section img {
-    width: 100px;
-	height: 100px;
-	border-radius: 4px;
+    width: 200px;
+	height: 200px;
+	border-radius: 9px;
 	display: block;
 	margin: 0 auto;
 	box-shadow: 0 0 20px rgba(0,0,0,0.15);
